@@ -91,7 +91,7 @@ function Customers(props) {
       }
     };
     requestData();
-  });
+  },[]);
 
   
   const UpdateCustomers = async (id) => {
